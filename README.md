@@ -112,7 +112,7 @@ sudo systemctl restart apache2
 - **SCP errors** → Verify `.pem` path and use Git Bash or PowerShell.
 
 ## Author
-Royal from Chichawatni (CCW), Pakistan  
+Kahaf Sameer   
 Passionate about modular design, cloud deployment, and blending local identity with global tech.
 
 ## License
