@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahaf Sameer - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Kahaf Sameer</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Hello, I'm Kahaf Sameer</h2>
+                <p class="tagline">DevOps Enthusiast from Chichawatni, CCW | Passionate about Automation & Innovation</p>
+                <p class="ccw-pride">Proudly representing Chichawatni (CCW) with global standards in tech.</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/profile_image.png" alt="Kahaf Sameer" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjEwMCIgZmlsbD0iI2NjYyIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSIgZmlsbD0id2hpdGUiPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Motivated DevOps enthusiast with hands-on experience in Linux, Git, GitHub, and Python. Passionate about automating workflows, managing version control, and learning containerization using Docker. Seeking an entry-level DevOps role to contribute to CI/CD pipeline design, cloud deployment, and infrastructure automation, while leveraging a strong foundation in software engineering and scripting.</p>
+                        <h3>Education</h3>
+                        <ul>
+                            <li><strong>BS Computer Science</strong> — University of Sahiwal (2021 – 2025) | CGPA: 3.7</li>
+                            <li><strong>Intermediate (ICS)</strong> — Post Graduate College CCW (2019 – 2021)</li>
+                            <li><strong>Matriculation</strong> — Govt. High School CCW (2017 – 2019)</li>
+                        </ul>
+                        <h3>Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>DevOps & Tools</h4>
+                                <p>Linux (Ubuntu, CLI, Bash scripting), Git, GitHub, GitLab, Docker (learning), Apache, Nginx, CI/CD concepts (basic)</p>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Programming & Scripting</h4>
+                                <p>Python (automation scripts, data handling), Shell (basic)</p>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Version Control & Collaboration</h4>
+                                <p>Git branching, GitLab repositories, Merge Requests, GitHub Actions (intro level)</p>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Cloud & Deployment</h4>
+                                <p>AWS fundamentals, Docker workflow, Streamlit app deployment</p>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Other Technical Areas</h4>
+                                <p>Flutter, Firebase, HTML, CSS, JavaScript, SQL, MySQL, SQLite</p>
+                            </div>
+                        </div>
+                        <h3>Achievements & Certifications</h3>
+                        <ul>
+                            <li>AI/ML Skills (2024 – 2025): Practical experience in Python, Pandas, NumPy, Streamlit, and Linux basics.</li>
+                            <li>Trainings (2021 – 2023): Completed training in Flutter, Firebase, DBMS, Game Development, Android Studio.</li>
+                            <li>Merit Scholarship (2021 – 2025): Awarded for securing 1st position in BSCS evening sessions.</li>
+                            <li>Member (2021 – Present): University Programming & Development Society.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>CI/CD Pipeline for Python Application</h3>
+                        <p>Built a basic CI/CD workflow using GitHub Actions to automate testing and containerize a Python app with Docker.</p>
+                        <span class="tech-stack">Linux, GitHub Actions, Docker</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="project-card">
+                        <h3>Needle Network Tailors Service App</h3>
+                        <p>Built a tailor–customer marketplace app with AI-powered chatbot using RAG and Gemini API. Integrated Google Maps for finding nearby tailors and enabled real-time product listing & chat features.</p>
+                        <span class="tech-stack">Flutter, Firebase, Gemini API</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="project-card">
+                        <h3>Healthcare Insurance Fraud Detection</h3>
+                        <p>Developed a fraud detection system using Gradient Boosting Classifier trained on Medicare data. Deployed via Streamlit with SHAP-based model interpretability.</p>
+                        <span class="tech-stack">Python, AI, Streamlit</span>
+                        <span class="year">2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv" class="cv">
+            <div class="container">
+                <h2>CV</h2>
+                <div class="cv-content">
+                    <p>Download my full CV or view it embedded below.</p>
+                    <a href="assets/cv.pdf" class="download-btn" download>Download CV</a>
+                    <iframe src="assets/cv.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> sameerkahaf920@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +92 300 8402564</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                            <a href="#" class="social-link"><i class="fas fa-briefcase"></i> Fiverr</a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kahaf Sameer. Proudly from Chichawatni, CCW.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
